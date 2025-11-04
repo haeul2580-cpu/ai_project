@@ -1,7 +1,9 @@
 import streamlit as st
 
+# 페이지 설정
 st.set_page_config(page_title="MBTI 취향 저격 🎬📚", page_icon="🎭", layout="centered")
 
+# 제목
 st.title("✨ MBTI로 알아보는 책 & 영화 추천 ✨")
 st.write("자기 MBTI를 골라봐! 너한테 찰떡인 책이랑 영화 알려줄게 😆")
 
@@ -34,4 +36,4 @@ recommendations = {
             ("죽은 시인의 사회", "이상과 자유를 사랑하는 너에게 딱이야 🌸")
         ],
         "movies": [
-            ("라라랜드", "꿈과 사랑 사이에
+            ("라라랜
