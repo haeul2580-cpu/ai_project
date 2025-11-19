@@ -1,7 +1,6 @@
 # 읽기·요약·시각화·Streamlit 앱 파일 생성 (모두 한 번에 실행합니다)
 import pandas as pd
 import plotly.graph_objects as go
-from caas_jupyter_tools import display_dataframe_to_user
 import os
 from pathlib import Path
 
